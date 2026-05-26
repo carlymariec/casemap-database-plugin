@@ -134,6 +134,44 @@ Court:
 
 ---
 
+## 🖥️ Running Scripts on iPad (a-Shell/iSH)
+
+You can use a-Shell or iSH to run project scripts directly on your iPad.
+
+### a-Shell Usage (recommended for Node.js scripts):
+
+1. [Download a-Shell from the App Store](https://apps.apple.com/us/app/a-shell/id1473805438).
+2. Copy the `/scripts/` folder from your vault to an accessible location in Files.
+3. Open a-Shell:
+   - Ensure Node.js is available:  
+     ```
+     pip install nodejs
+     ```
+     or check with:
+     ```
+     node -v
+     ```
+   - Change to your scripts directory:
+     ```
+     cd /path/to/your/vault/scripts
+     ```
+   - Run scripts as you would on desktop:
+     ```
+     node generate-index.js
+     ```
+4. If your vault is in iCloud, you may need to copy files back/forth as required.
+
+### iSH Usage (bash/python; NOT for Node.js scripts):
+
+- [Download iSH Shell from the App Store](https://apps.apple.com/us/app/ish-shell/id1436902243).
+- iSH works for bash/python automation, but **Node.js does not run natively** in iSH.
+- If you want bash/Python versions of scripts, adapt the provided JS scripts—ask if you need help!
+
+> **File/script locations must be accessible to your shell environment.**  
+> You can copy outputs back into Obsidian’s vault via the Files app.
+
+---
+
 ## 🛠️ Plugins (Optional but Recommended)
 
 - [Dataview](https://github.com/blacksmithgu/obsidian-dataview): query, table, and summary views by YAML fields.
@@ -149,7 +187,7 @@ Court:
 - When creating a Case/Fact/Person/Evidence/Issue/Chronology/Event, start from the proper template.
 - Fill YAML fields!
 - Link notes using `[[ ]]`.
-- On desktop, run scripts for smart indexes and reporting, then re-sync your vault to mobile.
+- On desktop, or with a-Shell, run scripts for smart indexes and reporting, then re-sync your vault to mobile.
 
 ---
 
