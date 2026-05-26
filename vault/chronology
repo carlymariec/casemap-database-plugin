@@ -1,1 +1,20 @@
+---
+fileClass: Chronology
+Title: "Summarize this event or key moment"
+DateTime: "Give the precise date/time if possible"
+Type: "Fact/Evidence/Event/Other"
+LinkedFact: "Link to fact if applicable"
+LinkedEvidence: "Link to evidence if applicable"
+LinkedIssue: "Link to issue if relevant"
+Notes: "Add context or explanation for this timeline entry"
+Tags: "Add relevant tags (optional)"
+---
+# Chronology Item: {{Title}}
 
+**Date/Time:** {{DateTime}}  
+**Type:** {{Type}}  
+**Linked Fact:** [[Link to fact]]  
+**Linked Evidence:** [[Link to evidence]]  
+**Linked Issue:** [[Link to issue]]  
+**Notes:**  
+{{Notes}}
