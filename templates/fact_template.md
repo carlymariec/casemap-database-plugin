@@ -1,8 +1,20 @@
+---
+fileClass: Fact
+FactSummary:
+DateTime: 
+SourceDocsOrPersons: 
+Significance: 
+DetailedDescription: 
+RelatedCase: 
+InvolvedPeople: 
+RelatedIssue: 
+Tags: 
+---
 # Fact: {{FactSummary}}
 
 **Date/Time:** {{DateTime}}  
 **Source:** {{SourceDocsOrPersons}}  
-**Significance:** {{High/Medium/Low}}  
+**Significance:** {{Significance}}
 
 ## Details
 {{DetailedDescription}}
