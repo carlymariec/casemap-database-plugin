@@ -1,0 +1,24 @@
+---
+fileClass: Person
+FullName: "Enter the full name of the person"
+Role: "State the role (e.g., Plaintiff, Defendant, Witness, Attorney, etc.)"
+Contact: "Enter contact details (email, phone, etc.), if available"
+Affiliation: "Provide the person's employer, law firm, or group (if applicable)"
+Notes: "Add any important notes about this person"
+RelatedCases: "Link to all related cases"
+AssociatedFacts: "Link to facts this person is connected to"
+Tags: "Add relevant tags (optional)"
+---
+# Person: {{FullName}}
+
+**Role:** {{Role}}  
+**Contact:** {{Contact}}  
+**Affiliation:** {{Affiliation}}  
+**Notes:**  
+{{Notes}}
+
+## Related Cases
+- [[Link to each related case]]
+
+## Associated Facts
+- [[Link to related facts]]
